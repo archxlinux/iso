@@ -9,6 +9,7 @@ bind
 broadcom-wl-dkms
 btrfs-progs
 cloud-init
+code
 cryptsetup
 dhclient
 dhcpcd
@@ -16,6 +17,7 @@ diffutils
 dmidecode
 dnsmasq
 dosfstools
+haveged
 edk2-shell
 e2fsprogs
 efibootmgr
@@ -26,9 +28,7 @@ intel-ucode
 iw
 iwd
 jfsutils
-kitty-terminfo
 less
-lftp
 libfido2
 libusb-compat
 linux-firmware
@@ -38,11 +38,8 @@ mkinitcpio-archiso
 mkinitcpio-nfs-utils
 mtools
 nbd
-ndisc6
 nfs-utils
 nilfs-utils
-nmap
-ntfs-3g
 nvme-cli
 oh-my-zsh-git
 opensnitch
@@ -53,7 +50,6 @@ squashfs-tools
 sudo
 syslinux
 systemd-resolvconf
-tcpdump
 terminus-font
 usb_modeswitch
 usbmuxd
@@ -64,9 +60,7 @@ zsh
 
 
 sddm
-bash-completion
 os-prober
-dex
 libxinerama
 make
 xorg-xkill
@@ -75,12 +69,6 @@ xorg-xrdb
 mkinitcpio-openswap
 networkmanager
 network-manager-applet
-
-#######################################################
-###                    EXTRAS                       ###
-#######################################################
-
-##### xorg applications
 
 xorg-server
 xorg-apps
@@ -100,6 +88,5 @@ konsole
 spectacle
 packagekit-qt5
 
-# install and theme
 calamares
 calamares-config

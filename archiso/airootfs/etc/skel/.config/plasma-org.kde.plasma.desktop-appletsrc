@@ -28,7 +28,6 @@ PreloadWeight=26
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=1138
 ToolBoxButtonY=48
-positions={"3840x2160":["2"\\,"23"\\,"desktop:/aur"\\,"0"\\,"0"\\,"desktop:/code"\\,"0"\\,"1"\\,"desktop:/Media"\\,"0"\\,"6"\\,"desktop:/localGPT"\\,"1"\\,"0"\\,"desktop:/backup-github.sh"\\,"0"\\,"7"\\,"desktop:/go"\\,"0"\\,"4"\\,"desktop:/SoftMaker"\\,"0"\\,"10"\\,"desktop:/Documents"\\,"0"\\,"2"\\,"desktop:/Downloads"\\,"0"\\,"3"]\\,"2160x3840":[]}
 sortMode=-1
 
 [Containments][27][Wallpaper][org.kde.image][General]
@@ -108,10 +107,6 @@ PreloadWeight=26
 [Containments][29][Applets][32][Configuration][ConfigDialog]
 DialogHeight=840
 DialogWidth=1120
-
-[Containments][29][Applets][32][Configuration][General]
-launchers=applications:systemsettings.desktop,preferred://filemanager,preferred://browser,applications:code.desktop,applications:org.kde.konsole.desktop,applications:org.keepassxc.KeePassXC.desktop
-showOnlyCurrentActivity=false
 
 [Containments][29][Applets][33]
 immutability=1
@@ -473,4 +468,3 @@ showOnlyCurrentActivity=false
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/backup-github.sh,0,59ca09f7-740d-4c82-a02f-50a2427bdd45,desktop:/Media,0,59ca09f7-740d-4c82-a02f-50a2427bdd45,desktop:/code,0,59ca09f7-740d-4c82-a02f-50a2427bdd45,desktop:/aur,0,59ca09f7-740d-4c82-a02f-50a2427bdd45,desktop:/localGPT,0,59ca09f7-740d-4c82-a02f-50a2427bdd45,desktop:/SoftMaker,0,59ca09f7-740d-4c82-a02f-50a2427bdd45,desktop:/Downloads,0,59ca09f7-740d-4c82-a02f-50a2427bdd45,desktop:/go,0,59ca09f7-740d-4c82-a02f-50a2427bdd45,desktop:/Documents,0,59ca09f7-740d-4c82-a02f-50a2427bdd45
