@@ -37,7 +37,7 @@ echo
 	mkdir $buildFolder
 	cp -r archiso $buildFolder/archiso
 
-	#yes | sudo pacman -Scc
+#	yes | sudo pacman -Scc
 
 
 	[ -d $outFolder ] || mkdir $outFolder
@@ -53,7 +53,7 @@ echo
  	echo
  	echo "Building sha1sum"
  	echo "########################"
- 	#sha512sum $isoLabel | tee $isoLabel.sha512
+ #	sha256sum $isoLabel | tee $isoLabel.sha256
 	echo "Moving pkglist.x86_64.txt"
 	rename=$(date +%Y-%m-%d)
  	cp $HOME/archx/iso/archiso/pkglist.x86_64.txt  $outFolder/archlinux-$rename-pkglist.txt
