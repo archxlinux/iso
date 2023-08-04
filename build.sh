@@ -57,5 +57,5 @@ echo
  #	sha256sum $isoLabel | tee $isoLabel.sha256
 	echo "Moving pkglist.x86_64.txt"
 	rename=$(date +%Y-%m-%d)
- 	cp $HOME/archx/iso/archiso/pkglist.x86_64.txt  $outFolder/archlinux-$rename-pkglist.txt
+ 	cp $buildFolder/archiso/packages.x86_64  $outFolder/archlinux-$rename-packages
 
