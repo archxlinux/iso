@@ -19,7 +19,7 @@ steps:
   - name: login
     image: ghcr.io/supportpal/github-gh-cli 
     commands: 
-      - gh auth login --with-token < $GITHUB_TOKEN
+      - gh auth login --with-token $GITHUB_TOKEN
 
 volumes:
 - name: build
