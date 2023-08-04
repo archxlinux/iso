@@ -34,10 +34,11 @@ echo
 	echo
 	echo "Copying the Archiso folder to build work"
 	echo
+	rm -rf $buildFolder
 	mkdir $buildFolder
 	cp -r archiso $buildFolder/archiso
 
-#	yes | sudo pacman -Scc
+	yes | sudo pacman -Scc
 
 
 	[ -d $outFolder ] || mkdir $outFolder

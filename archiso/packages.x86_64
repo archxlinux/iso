@@ -1,15 +1,10 @@
-alsa-utils
-archxlinux-keyring
 amd-ucode
 apparmor
-arch-install-scripts
+archxlinux-keyring
 archinstall
 base
-bind
-broadcom-wl-dkms
 btrfs-progs
 cloud-init
-code
 cryptsetup
 dhclient
 dhcpcd
@@ -25,23 +20,15 @@ ethtool
 grub
 hdparm
 intel-ucode
-iw
-iwd
-jfsutils
 less
 libfido2
 libusb-compat
 linux-firmware
-lsscsi
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
-mtools
-nbd
-nfs-utils
-nilfs-utils
 nvme-cli
-oh-my-zsh-git
+oh-my-zsh
 opensnitch
 openvpn
 rsync
@@ -50,43 +37,45 @@ squashfs-tools
 sudo
 syslinux
 systemd-resolvconf
-terminus-font
 usb_modeswitch
-usbmuxd
 usbutils
+vi
 wireless_tools
 wpa_supplicant
 zsh
 
 
-sddm
-os-prober
-libxinerama
-make
-xorg-xkill
-xterm
-xorg-xrdb
+###xorg
+xorg-server
+xorg-xinit
+
+###video
+# drivers
+xf86-input-libinput
+xf86-video-intel
+xf86-video-vmware
+mesa
+nvidia-dkms
+nvidia-utils
+nvidia-settings
+
 mkinitcpio-openswap
+
 networkmanager
 network-manager-applet
 
-xorg-server
-xorg-apps
 neofetch
 
-
 base-devel
-
 
 linux-hardened
 linux-hardened-headers
 
+sddm
+plasma
 plasma-meta
 plasma-wayland-session
-dolphin
 konsole
-spectacle
-packagekit-qt5
 
 calamares
 calamares-config
