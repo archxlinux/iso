@@ -18,7 +18,8 @@ steps:
       path: /tmp/iso 
   - name: login
     image: ghcr.io/supportpal/github-gh-cli 
-    command: gh auth login --with-token < $GITHUB_TOKEN
+    commands: 
+      - gh auth login --with-token < $GITHUB_TOKEN
 
 volumes:
 - name: build
