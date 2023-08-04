@@ -2,7 +2,7 @@ kind: pipeline
 name: build and publish
 steps:
   - name: build
-    image: archxlinux/builder
+    image: archxlinux/iso
     pull: always
     privileged: true
     commands:
