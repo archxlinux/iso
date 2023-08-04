@@ -5,6 +5,7 @@ steps:
     image: plugins/docker
     settings:
       repo: archxlinux/archxlinux
+      dockerfile: Dockerfile
       username:
         from_secret: docker_username
       password:
