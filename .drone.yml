@@ -1,6 +1,10 @@
 kind: pipeline
 name: build and publish
 steps:
+  - name: generate-build-tags
+    image: jgreat/drone-build-tag
+    commands:
+      - build-tags.sh
   - name: build
     image: archxlinux/iso
     pull: always
@@ -12,16 +16,9 @@ steps:
       path: /tmp/build 
     - name: iso
       path: /tmp/iso 
-  - name: publish-github
-    image: plugins/github-release
-    volumes:
-      - name: iso
-        path: /tmp/iso
-    settings:
-      api_key:
-        from_secret: github_token
-      files: /tmp/iso/*iso
-      prerelease: yes
+  - name: login
+    image: ghcr.io/supportpal/github-gh-cli 
+    command: gh auth login --with-token < $GITHUB_TOKEN
 
 volumes:
 - name: build
