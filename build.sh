@@ -1,3 +1,4 @@
+	
 	archisoRequiredVersion="archiso 71-1"
 	buildFolder="/tmp/build"
 	outFolder="/tmp/iso"
