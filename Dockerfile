@@ -1,4 +1,4 @@
-FROM archxlinux:latest
+FROM archxlinux/archxlinux:latest
 RUN pacman -Sy archiso --noconfirm
 ADD build.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
