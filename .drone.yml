@@ -21,7 +21,11 @@ steps:
     commands: 
       - gh auth login --with-token $GITHUB_TOKEN
       - gh release create $(git log -1 --pretty='%ad' --date=format:'%Y.%m.%d') /tmp/iso/*
-
+    volumes:
+    - name: build
+      path: /tmp/build 
+    - name: iso
+      path: /tmp/iso 
 
 volumes:
 - name: build
