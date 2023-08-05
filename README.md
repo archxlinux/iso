@@ -15,14 +15,14 @@ Archx is an Arch Linux-based distribution tailored to deliver a fast, customizab
 
 TAG: latest
 
-   Command: docker pull archxlinux/archxlinux:latest 🐳
-   Arch: linux/amd64 💻
-   Size: 25 MB 📏
+   - Command: docker pull archxlinux/archxlinux:latest 🐳
+   - Arch: linux/amd64 💻
+   - Size: 25 MB 📏
 
 This is the 'latest' image for archxlinux. The 'latest' tag is a default tag that Docker applies if you don't assign a tag to an image.
 TAG: slim
 
-   Command: docker pull archxlinux/archxlinux:slim 🐳
-   Arch: linux/amd64 💻
-   Size: 25 MB 📏
+   - Command: docker pull archxlinux/archxlinux:slim 🐳
+   - Arch: linux/amd64 💻
+   - Size: 25 MB 📏
 
