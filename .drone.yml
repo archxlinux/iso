@@ -1,10 +1,6 @@
 kind: pipeline
 name: build and publish
 steps:
-  - name: generate-build-tags
-    image: jgreat/drone-build-tag
-    commands:
-      - build-tags.sh
   - name: build
     image: archxlinux/iso
     pull: always

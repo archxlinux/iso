@@ -2,13 +2,12 @@ amd-ucode
 apparmor
 archxlinux-keyring
 archinstall
+audit
 base
-base-devel
 btrfs-progs
 cloud-init
 cryptsetup
 dhclient
-dhcpcd
 diffutils
 dmidecode
 dnsmasq
@@ -31,9 +30,6 @@ mkinitcpio-nfs-utils
 mkinitcpio-openswap
 neofetch
 nvme-cli
-oh-my-zsh
-opensnitch
-openvpn
 rsync
 sdparm
 squashfs-tools
@@ -42,21 +38,30 @@ syslinux
 systemd-resolvconf
 usb_modeswitch
 usbutils
-vi
 wireless_tools
 wpa_supplicant
-zsh
 
+# Sec
+opensnitch
+openvpn
+
+# Dev
+base-devel
+oh-my-zsh
+git
+vim
+zsh
 
 # X
 
 xorg-server
 xorg-xinit
+xorg-apps
 xf86-input-libinput
 xf86-video-intel
 xf86-video-vmware
 mesa
-nvidia-dkms
+nvidia
 nvidia-utils
 nvidia-settings
 
@@ -68,7 +73,6 @@ network-manager-applet
 
 # linux
 linux-hardened
-linux-hardened-headers
 
 # kde
 sddm
