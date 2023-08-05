@@ -3,6 +3,7 @@ apparmor
 archxlinux-keyring
 archinstall
 base
+base-devel
 btrfs-progs
 cloud-init
 cryptsetup
@@ -27,6 +28,8 @@ linux-firmware
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
+mkinitcpio-openswap
+neofetch
 nvme-cli
 oh-my-zsh
 opensnitch
@@ -45,12 +48,10 @@ wpa_supplicant
 zsh
 
 
-###xorg
+# X
+
 xorg-server
 xorg-xinit
-
-###video
-# drivers
 xf86-input-libinput
 xf86-video-intel
 xf86-video-vmware
@@ -59,23 +60,23 @@ nvidia-dkms
 nvidia-utils
 nvidia-settings
 
-mkinitcpio-openswap
 
+# Net
 networkmanager
 network-manager-applet
 
-neofetch
 
-base-devel
-
+# linux
 linux-hardened
 linux-hardened-headers
 
+# kde
 sddm
 plasma
 plasma-meta
 plasma-wayland-session
 konsole
 
+# installer
 calamares
 calamares-config

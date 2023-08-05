@@ -1,7 +1,7 @@
 	
 	archisoRequiredVersion="archiso 71-1"
-	buildFolder="/tmp/build"
-	outFolder="/tmp/iso"
+	buildFolder="$HOME/build"
+	outFolder="$HOME/iso"
 	archisoVersion=$(pacman -Q archiso)
 
 
