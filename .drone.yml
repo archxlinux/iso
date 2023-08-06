@@ -7,7 +7,7 @@ steps:
     privileged: true
     environment:
       GITHUB_TOKEN:
-        from_secret: git
+        from_secret: git_token
     commands:
       - ./build.sh 
     volumes:
