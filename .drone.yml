@@ -5,6 +5,9 @@ steps:
     image: archxlinux/iso
     pull: always
     privileged: true
+    environment:
+      GITHUB_TOKEN:
+        from_secret: git
     commands:
       - bash /entrypoint.sh
     volumes:
