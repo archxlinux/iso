@@ -10,9 +10,9 @@ steps:
       - ./build.sh 
     volumes:
     - name: build
-      path: /tmp/build 
+      path: /root/build 
     - name: iso
-      path: /tmp/iso 
+      path: /root/iso 
   - name: login
     environment:
       GITHUB_TOKEN:
@@ -20,7 +20,7 @@ steps:
     image: ghcr.io/supportpal/github-gh-cli 
     commands: 
       - gh auth login --hostname github.com || true
-      - gh release create $(git log -1 --pretty='%ad' --date=format:'%Y.%m.%d') /tmp/iso/*
+      - gh release create $(git log -1 --pretty='%ad' --date=format:'%Y.%m.%d') /root/iso/*
     volumes:
     - name: build
       path: /tmp/build 
