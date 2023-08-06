@@ -2,14 +2,14 @@ kind: pipeline
 name: build and publish
 steps:
   - name: build
-    image: archxlinux/iso
+    image: archxlinux/archxlinux
     pull: always
     privileged: true
     environment:
       GITHUB_TOKEN:
         from_secret: git
     commands:
-      - bash /entrypoint.sh
+      - ./build.sh 
     volumes:
     - name: build
       path: /tmp/build 
