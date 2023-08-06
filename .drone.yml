@@ -23,9 +23,9 @@ steps:
       - gh release create $(git log -1 --pretty='%ad' --date=format:'%Y.%m.%d') /root/iso/*
     volumes:
     - name: build
-      path: /tmp/build 
+      path: /root/build 
     - name: iso
-      path: /tmp/iso 
+      path: /root/iso 
 
 volumes:
 - name: build
