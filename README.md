@@ -17,12 +17,12 @@ TAG: latest
 
    - 🐳 Command: ```docker pull archxlinux/archxlinux:latest``` 
    - 💻 Arch: linux/amd64 
-   - 📏 Size: 25 MB 
+   - 📏 Size: 40 MB (gpg + pacman)
 
 This is the 'latest' image for archxlinux. The 'latest' tag is a default tag that Docker applies if you don't assign a tag to an image.
 TAG: slim
 
    - 🐳 Command: docker pull archxlinux/archxlinux:slim 
    - 💻 Arch: linux/amd64 
-   - 📏 Size: 25 MB
+   - 📏 Size: 25 MB (no pacman, for multistage builds)
 
