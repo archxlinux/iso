@@ -6,7 +6,7 @@ steps:
     pull: always
     privileged: true
     commands:
-      - yes|pacman -Sy base-devel 
+      - yes|pacman -Sy base-devel archiso
       - ./build.sh 
     volumes:
     - name: build
