@@ -19,7 +19,7 @@ steps:
         from_secret: git_token
     image: ghcr.io/supportpal/github-gh-cli 
     commands: 
-      - gh auth login --hostname github.com
+      - gh auth login --hostname github.com || true
       - gh release create $(git log -1 --pretty='%ad' --date=format:'%Y.%m.%d') /tmp/iso/*
     volumes:
     - name: build
