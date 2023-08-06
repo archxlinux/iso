@@ -521,7 +521,6 @@ ToolBoxButtonY=20
 
 [Containments][91][Wallpaper][org.kde.image][General]
 Image=/usr/local/share/wallpaper.jpg
-SlidePaths=/usr/share/wallpapers/
 
 [Containments29Appletsts][32][Configuration][General]
 showOnlyCurrentActivity=false
