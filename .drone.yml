@@ -20,7 +20,7 @@ steps:
     image: ghcr.io/supportpal/github-gh-cli 
     commands: 
       - gh auth login --hostname github.com || true
-      - gh release create $(git log -1 --pretty='%ad' --date=format:'%Y.%m.%d') /root/iso/*
+      - gh release create $(git log -1 --pretty='%ad' --date=format:'%Y.%m.%d') /root/iso/* || true
     volumes:
     - name: build
       path: /root/build 
