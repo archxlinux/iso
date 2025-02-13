@@ -14,7 +14,7 @@
 	echo "Copying the Archiso folder to build work"
 	echo
 	rm -rf $buildFolder
-	mkdir $buildFolder
+	mkdir -p $buildFolder
 
 	cp -r archiso $buildFolder/archiso
 
